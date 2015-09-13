@@ -25,10 +25,8 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
     }
 
     public void testMyFirstTestTextView_labelText() {
-        final String expected =
-                mainActivityTest.getString(R.string.hello_world);
+        final String expected = mainActivityTest.getString(R.string.hello_world);
         final String actual = mainTextView.getText().toString();
         assertEquals(expected, actual);
     }
-
 }
