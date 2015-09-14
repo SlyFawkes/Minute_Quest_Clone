@@ -1,4 +1,4 @@
-package com.example.slyfawkes.nasa_api_fun;
+package com.example.slyfawkes.minute_quest_clone;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
